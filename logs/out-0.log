@@ -1,0 +1,66 @@
+2025-10-21 12:53:52: Server is running on http://127.0.0.1:5174
+2025-10-21 12:57:56: Server is running on http://127.0.0.1:5174
+2025-10-21 12:58:36: 12:58:36 PM [express] POST /api/contact 201 in 4438ms :: {"success":true,"message":"Message sent succ…
+2025-10-21 13:04:20: Server is running on http://127.0.0.1:5174
+2025-10-21 14:13:25: Server is running on http://127.0.0.1:5174
+2025-10-21 14:29:17: 2:29:17 PM [express] POST /api/contact 201 in 5280ms :: {"success":true,"message":"Message sent succ…
+2025-10-21 14:47:31: Server is running on http://127.0.0.1:5174
+2025-10-21 14:54:44: Server is running on http://127.0.0.1:5174
+2025-10-21 14:56:44: Server is running on http://127.0.0.1:5174
+2025-10-21 14:59:08: Server is running on http://127.0.0.1:5174
+2025-10-21 15:10:49: Server is running on http://127.0.0.1:5174
+2025-10-21 15:14:23: Server is running on http://127.0.0.1:5174
+2025-10-21 15:18:06: Server is running on http://127.0.0.1:5174
+2025-10-21 15:22:18: Server is running on http://127.0.0.1:5174
+2025-10-21 15:28:55: Server is running on http://127.0.0.1:5174
+2025-10-21 15:30:51: Server is running on http://127.0.0.1:5174
+2025-10-21 15:35:33: Server is running on http://127.0.0.1:5174
+2025-10-21 15:37:51: Server is running on http://127.0.0.1:5174
+2025-10-21 15:57:26: Server is running on http://127.0.0.1:5174
+2025-10-21 16:01:44: Server is running on http://127.0.0.1:5174
+2025-10-21 16:03:36: 4:03:36 PM [express] POST /api/chat 200 in 423ms :: {"success":true,"reply":"Hello. How can I assist…
+2025-10-21 16:04:08: 4:04:08 PM [express] POST /api/chat 200 in 233ms :: {"success":true,"reply":"According to the site k…
+2025-10-21 16:04:31: 4:04:31 PM [express] POST /api/chat 200 in 265ms :: {"success":true,"reply":"You can contact Shashan…
+2025-10-21 16:09:17: Server is running on http://127.0.0.1:5174
+2025-10-21 16:14:05: Server is running on http://127.0.0.1:5174
+2025-10-21 16:17:24: Server is running on http://127.0.0.1:5174
+2025-10-21 16:23:21: Server is running on http://127.0.0.1:5174
+2025-10-21 16:26:20: Server is running on http://127.0.0.1:5174
+2025-10-21 16:28:04: Server is running on http://127.0.0.1:5174
+2025-10-21 16:29:52: Server is running on http://127.0.0.1:5174
+2025-10-21 16:31:07: 4:31:07 PM [express] POST /api/chat 200 in 341ms :: {"success":true,"reply":"Hello, how can I assist…
+2025-10-21 16:31:14: 4:31:14 PM [express] POST /api/chat 200 in 191ms :: {"success":true,"reply":"According to the site, …
+2025-10-21 16:31:21: 4:31:21 PM [express] POST /api/chat 200 in 246ms :: {"success":true,"reply":"You can contact Shashan…
+2025-10-21 16:31:28: 4:31:28 PM [express] POST /api/chat 200 in 260ms :: {"success":true,"reply":"According to the site k…
+2025-10-21 16:36:25: Server is running on http://127.0.0.1:5174
+2025-10-21 16:45:01: Server is running on http://127.0.0.1:5174
+2025-10-21 16:46:21: Server is running on http://127.0.0.1:5174
+2025-10-21 16:48:46: Server is running on http://127.0.0.1:5174
+2025-10-21 16:50:50: Server is running on http://127.0.0.1:5174
+2025-10-21 18:40:29: Server is running on http://127.0.0.1:5174
+2025-10-21 18:50:50: Server is running on http://127.0.0.1:5174
+2025-10-21 19:16:04: Server is running on http://127.0.0.1:5174
+2025-10-21 19:20:52: Server is running on http://127.0.0.1:5174
+2025-10-21 19:23:18: Server is running on http://127.0.0.1:5174
+2025-10-21 19:25:24: Server is running on http://127.0.0.1:5174
+2025-10-21 19:28:16: Server is running on http://127.0.0.1:5174
+2025-10-21 19:30:33: Server is running on http://127.0.0.1:5174
+2025-10-21 19:38:38: Server is running on http://127.0.0.1:5174
+2025-10-21 19:41:02: Server is running on http://127.0.0.1:5174
+2025-10-21 20:03:09: Server is running on http://127.0.0.1:5174
+2025-10-21 20:09:20: Server is running on http://127.0.0.1:5174
+2025-10-21 20:22:17: Server is running on http://127.0.0.1:5174
+2025-10-21 20:43:50: Server is running on http://127.0.0.1:5174
+2025-10-21 20:46:43: Server is running on http://127.0.0.1:5174
+2025-10-21 20:57:19: Server is running on http://127.0.0.1:5174
+2025-10-21 21:00:14: Server is running on http://127.0.0.1:5174
+2025-10-21 21:02:35: Server is running on http://127.0.0.1:5174
+2025-10-21 21:15:08: Server is running on http://127.0.0.1:5174
+2025-10-21 21:24:50: Server is running on http://127.0.0.1:5174
+2025-10-21 21:27:27: Server is running on http://127.0.0.1:5174
+2025-10-21 21:33:22: Server is running on http://127.0.0.1:5174
+2025-10-21 21:38:12: Server is running on http://127.0.0.1:5174
+2025-10-21 21:42:00: Server is running on http://127.0.0.1:5174
+2025-10-21 21:46:25: Server is running on http://127.0.0.1:5174
+2025-10-21 21:48:48: Server is running on http://127.0.0.1:5174
+2025-10-21 21:50:40: Server is running on http://127.0.0.1:5174

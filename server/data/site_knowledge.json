@@ -1,0 +1,37 @@
+[
+  {
+    "section": "hero",
+    "title": "Cloud & AI Engineer",
+    "content": "Building the Future of Tech. Architecting scalable cloud infrastructure and cutting-edge AI solutions that transform businesses and drive innovation."
+  },
+  {
+    "section": "about",
+    "title": "About Me",
+    "content": "Passionate engineer with expertise in cloud computing and artificial intelligence. I transform complex challenges into elegant, scalable solutions that drive business value."
+  },
+  {
+    "section": "capabilities",
+    "title": "Cloud Architecture",
+    "content": "Designing and implementing scalable, secure, and cost-effective cloud solutions on AWS and GCP."
+  },
+  {
+    "section": "capabilities",
+    "title": "Agentic AI",
+    "content": "Building autonomous agents and tool-using systems with RAG, workflows, and reasoning to solve complex problems."
+  },
+  {
+    "section": "capabilities",
+    "title": "DevOps & Automation",
+    "content": "Streamlining development workflows with CI/CD pipelines, Infrastructure as Code, and containerization."
+  },
+  {
+    "section": "capabilities",
+    "title": "Performance Optimization",
+    "content": "Optimizing applications and infrastructure for efficiency, scalability, and reliability."
+  },
+  {
+    "section": "contact",
+    "title": "Contact",
+    "content": "Email: shashanklal309@gmail.com. Phone: +91 8050161804. Location: Bangalore, INDIA."
+  }
+]

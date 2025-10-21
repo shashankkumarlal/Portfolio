@@ -1,0 +1,410 @@
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension ".ts" for c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\index.ts
+    at Object.getFileProtocolModuleFormat [as file:] (node:internal/modules/esm/get_format:219:9)
+    at defaultGetFormat (node:internal/modules/esm/get_format:245:36)
+    at defaultLoad (node:internal/modules/esm/load:120:22)
+    at async ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:514:32)
+    at async ModuleJob._link (node:internal/modules/esm/module_job:115:19)
+2025-10-21 12:51:56: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74
+2025-10-21 12:51:56:     throw new Error(
+2025-10-21 12:51:56:           ^
+2025-10-21 12:51:56: 
+2025-10-21 12:51:56: 
+2025-10-21 12:51:56: Error: Could not find the build directory: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\public, make sure to build the client first
+2025-10-21 12:51:56:     at serveStatic (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74:11)
+2025-10-21 12:51:56:     at <anonymous> (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\index.ts:57:5)
+2025-10-21 12:51:56: 
+2025-10-21 12:51:56: Node.js v22.14.0
+2025-10-21 12:51:59: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74
+2025-10-21 12:51:59:     throw new Error(
+2025-10-21 12:51:59:           ^
+2025-10-21 12:51:59: 
+2025-10-21 12:51:59: 
+2025-10-21 12:51:59: Error: Could not find the build directory: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\public, make sure to build the client first
+2025-10-21 12:51:59:     at serveStatic (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74:11)
+2025-10-21 12:51:59:     at <anonymous> (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\index.ts:57:5)
+2025-10-21 12:51:59: 
+2025-10-21 12:51:59: Node.js v22.14.0
+2025-10-21 12:52:01: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74
+2025-10-21 12:52:01:     throw new Error(
+2025-10-21 12:52:01:           ^
+2025-10-21 12:52:01: 
+2025-10-21 12:52:01: 
+2025-10-21 12:52:01: Error: Could not find the build directory: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\public, make sure to build the client first
+2025-10-21 12:52:01:     at serveStatic (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74:11)
+2025-10-21 12:52:01:     at <anonymous> (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\index.ts:57:5)
+2025-10-21 12:52:01: 
+2025-10-21 12:52:01: Node.js v22.14.0
+2025-10-21 12:52:04: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74
+2025-10-21 12:52:04:     throw new Error(
+2025-10-21 12:52:04:           ^
+2025-10-21 12:52:04: 
+2025-10-21 12:52:04: 
+2025-10-21 12:52:04: Error: Could not find the build directory: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\public, make sure to build the client first
+2025-10-21 12:52:04:     at serveStatic (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74:11)
+2025-10-21 12:52:04:     at <anonymous> (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\index.ts:57:5)
+2025-10-21 12:52:04: 
+2025-10-21 12:52:04: Node.js v22.14.0
+2025-10-21 12:52:06: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74
+2025-10-21 12:52:06:     throw new Error(
+2025-10-21 12:52:06:           ^
+2025-10-21 12:52:06: 
+2025-10-21 12:52:06: 
+2025-10-21 12:52:06: Error: Could not find the build directory: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\public, make sure to build the client first
+2025-10-21 12:52:06:     at serveStatic (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74:11)
+2025-10-21 12:52:06:     at <anonymous> (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\index.ts:57:5)
+2025-10-21 12:52:06: 
+2025-10-21 12:52:06: Node.js v22.14.0
+2025-10-21 12:52:09: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74
+2025-10-21 12:52:09:     throw new Error(
+2025-10-21 12:52:09:           ^
+2025-10-21 12:52:09: 
+2025-10-21 12:52:09: 
+2025-10-21 12:52:09: Error: Could not find the build directory: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\public, make sure to build the client first
+2025-10-21 12:52:09:     at serveStatic (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74:11)
+2025-10-21 12:52:09:     at <anonymous> (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\index.ts:57:5)
+2025-10-21 12:52:09: 
+2025-10-21 12:52:09: Node.js v22.14.0
+2025-10-21 12:52:11: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74
+2025-10-21 12:52:11:     throw new Error(
+2025-10-21 12:52:11:           ^
+2025-10-21 12:52:11: 
+2025-10-21 12:52:11: 
+2025-10-21 12:52:11: Error: Could not find the build directory: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\public, make sure to build the client first
+2025-10-21 12:52:11:     at serveStatic (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74:11)
+2025-10-21 12:52:11:     at <anonymous> (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\index.ts:57:5)
+2025-10-21 12:52:11: 
+2025-10-21 12:52:11: Node.js v22.14.0
+2025-10-21 12:52:13: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74
+2025-10-21 12:52:13:     throw new Error(
+2025-10-21 12:52:13:           ^
+2025-10-21 12:52:13: 
+2025-10-21 12:52:13: 
+2025-10-21 12:52:13: Error: Could not find the build directory: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\public, make sure to build the client first
+2025-10-21 12:52:13:     at serveStatic (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74:11)
+2025-10-21 12:52:13:     at <anonymous> (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\index.ts:57:5)
+2025-10-21 12:52:13: 
+2025-10-21 12:52:13: Node.js v22.14.0
+2025-10-21 12:52:16: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74
+2025-10-21 12:52:16:     throw new Error(
+2025-10-21 12:52:16:           ^
+2025-10-21 12:52:16: 
+2025-10-21 12:52:16: 
+2025-10-21 12:52:16: Error: Could not find the build directory: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\public, make sure to build the client first
+2025-10-21 12:52:16:     at serveStatic (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74:11)
+2025-10-21 12:52:16:     at <anonymous> (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\index.ts:57:5)
+2025-10-21 12:52:16: 
+2025-10-21 12:52:16: Node.js v22.14.0
+2025-10-21 12:52:18: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74
+2025-10-21 12:52:18:     throw new Error(
+2025-10-21 12:52:18:           ^
+2025-10-21 12:52:18: 
+2025-10-21 12:52:18: 
+2025-10-21 12:52:18: Error: Could not find the build directory: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\public, make sure to build the client first
+2025-10-21 12:52:18:     at serveStatic (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74:11)
+2025-10-21 12:52:18:     at <anonymous> (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\index.ts:57:5)
+2025-10-21 12:52:18: 
+2025-10-21 12:52:18: Node.js v22.14.0
+2025-10-21 12:52:20: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74
+2025-10-21 12:52:20:     throw new Error(
+2025-10-21 12:52:20:           ^
+2025-10-21 12:52:20: 
+2025-10-21 12:52:20: 
+2025-10-21 12:52:20: Error: Could not find the build directory: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\public, make sure to build the client first
+2025-10-21 12:52:20:     at serveStatic (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74:11)
+2025-10-21 12:52:20:     at <anonymous> (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\index.ts:57:5)
+2025-10-21 12:52:20: 
+2025-10-21 12:52:20: Node.js v22.14.0
+2025-10-21 12:52:22: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74
+2025-10-21 12:52:22:     throw new Error(
+2025-10-21 12:52:22:           ^
+2025-10-21 12:52:22: 
+2025-10-21 12:52:22: 
+2025-10-21 12:52:22: Error: Could not find the build directory: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\public, make sure to build the client first
+2025-10-21 12:52:22:     at serveStatic (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74:11)
+2025-10-21 12:52:22:     at <anonymous> (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\index.ts:57:5)
+2025-10-21 12:52:22: 
+2025-10-21 12:52:22: Node.js v22.14.0
+2025-10-21 12:52:25: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74
+2025-10-21 12:52:25:     throw new Error(
+2025-10-21 12:52:25:           ^
+2025-10-21 12:52:25: 
+2025-10-21 12:52:25: 
+2025-10-21 12:52:25: Error: Could not find the build directory: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\public, make sure to build the client first
+2025-10-21 12:52:25:     at serveStatic (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74:11)
+2025-10-21 12:52:25:     at <anonymous> (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\index.ts:57:5)
+2025-10-21 12:52:25: 
+2025-10-21 12:52:25: Node.js v22.14.0
+2025-10-21 12:52:27: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74
+2025-10-21 12:52:27:     throw new Error(
+2025-10-21 12:52:27:           ^
+2025-10-21 12:52:27: 
+2025-10-21 12:52:27: 
+2025-10-21 12:52:27: Error: Could not find the build directory: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\public, make sure to build the client first
+2025-10-21 12:52:27:     at serveStatic (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74:11)
+2025-10-21 12:52:27:     at <anonymous> (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\index.ts:57:5)
+2025-10-21 12:52:27: 
+2025-10-21 12:52:27: Node.js v22.14.0
+2025-10-21 12:52:30: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74
+2025-10-21 12:52:30:     throw new Error(
+2025-10-21 12:52:30:           ^
+2025-10-21 12:52:30: 
+2025-10-21 12:52:30: 
+2025-10-21 12:52:30: Error: Could not find the build directory: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\public, make sure to build the client first
+2025-10-21 12:52:30:     at serveStatic (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74:11)
+2025-10-21 12:52:30:     at <anonymous> (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\index.ts:57:5)
+2025-10-21 12:52:30: 
+2025-10-21 12:52:30: Node.js v22.14.0
+2025-10-21 12:52:32: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74
+2025-10-21 12:52:32:     throw new Error(
+2025-10-21 12:52:32:           ^
+2025-10-21 12:52:32: 
+2025-10-21 12:52:32: 
+2025-10-21 12:52:32: Error: Could not find the build directory: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\public, make sure to build the client first
+2025-10-21 12:52:32:     at serveStatic (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74:11)
+2025-10-21 12:52:32:     at <anonymous> (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\index.ts:57:5)
+2025-10-21 12:52:32: 
+2025-10-21 12:52:32: Node.js v22.14.0
+2025-10-21 12:52:34: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74
+2025-10-21 12:52:34:     throw new Error(
+2025-10-21 12:52:34:           ^
+2025-10-21 12:52:34: 
+2025-10-21 12:52:34: 
+2025-10-21 12:52:34: Error: Could not find the build directory: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\public, make sure to build the client first
+2025-10-21 12:52:34:     at serveStatic (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74:11)
+2025-10-21 12:52:34:     at <anonymous> (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\index.ts:57:5)
+2025-10-21 12:52:34: 
+2025-10-21 12:52:34: Node.js v22.14.0
+2025-10-21 12:52:38: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74
+2025-10-21 12:52:38:     throw new Error(
+2025-10-21 12:52:38:           ^
+2025-10-21 12:52:38: 
+2025-10-21 12:52:38: 
+2025-10-21 12:52:38: Error: Could not find the build directory: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\public, make sure to build the client first
+2025-10-21 12:52:38:     at serveStatic (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74:11)
+2025-10-21 12:52:38:     at <anonymous> (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\index.ts:57:5)
+2025-10-21 12:52:38: 
+2025-10-21 12:52:38: Node.js v22.14.0
+2025-10-21 12:52:40: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74
+2025-10-21 12:52:40:     throw new Error(
+2025-10-21 12:52:40:           ^
+2025-10-21 12:52:40: 
+2025-10-21 12:52:40: 
+2025-10-21 12:52:40: Error: Could not find the build directory: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\public, make sure to build the client first
+2025-10-21 12:52:40:     at serveStatic (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74:11)
+2025-10-21 12:52:40:     at <anonymous> (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\index.ts:57:5)
+2025-10-21 12:52:40: 
+2025-10-21 12:52:40: Node.js v22.14.0
+2025-10-21 12:52:42: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74
+2025-10-21 12:52:42:     throw new Error(
+2025-10-21 12:52:42:           ^
+2025-10-21 12:52:42: 
+2025-10-21 12:52:42: 
+2025-10-21 12:52:42: Error: Could not find the build directory: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\public, make sure to build the client first
+2025-10-21 12:52:42:     at serveStatic (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74:11)
+2025-10-21 12:52:42:     at <anonymous> (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\index.ts:57:5)
+2025-10-21 12:52:42: 
+2025-10-21 12:52:42: Node.js v22.14.0
+2025-10-21 12:52:45: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74
+2025-10-21 12:52:45:     throw new Error(
+2025-10-21 12:52:45:           ^
+2025-10-21 12:52:45: 
+2025-10-21 12:52:45: 
+2025-10-21 12:52:45: Error: Could not find the build directory: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\public, make sure to build the client first
+2025-10-21 12:52:45:     at serveStatic (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74:11)
+2025-10-21 12:52:45:     at <anonymous> (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\index.ts:57:5)
+2025-10-21 12:52:45: 
+2025-10-21 12:52:45: Node.js v22.14.0
+2025-10-21 12:52:47: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74
+2025-10-21 12:52:47:     throw new Error(
+2025-10-21 12:52:47:           ^
+2025-10-21 12:52:47: 
+2025-10-21 12:52:47: 
+2025-10-21 12:52:47: Error: Could not find the build directory: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\public, make sure to build the client first
+2025-10-21 12:52:47:     at serveStatic (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74:11)
+2025-10-21 12:52:47:     at <anonymous> (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\index.ts:57:5)
+2025-10-21 12:52:47: 
+2025-10-21 12:52:47: Node.js v22.14.0
+2025-10-21 12:52:50: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74
+2025-10-21 12:52:50:     throw new Error(
+2025-10-21 12:52:50:           ^
+2025-10-21 12:52:50: 
+2025-10-21 12:52:50: 
+2025-10-21 12:52:50: Error: Could not find the build directory: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\public, make sure to build the client first
+2025-10-21 12:52:50:     at serveStatic (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74:11)
+2025-10-21 12:52:50:     at <anonymous> (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\index.ts:57:5)
+2025-10-21 12:52:50: 
+2025-10-21 12:52:50: Node.js v22.14.0
+2025-10-21 12:52:53: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74
+2025-10-21 12:52:53:     throw new Error(
+2025-10-21 12:52:53:           ^
+2025-10-21 12:52:53: 
+2025-10-21 12:52:53: 
+2025-10-21 12:52:53: Error: Could not find the build directory: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\public, make sure to build the client first
+2025-10-21 12:52:53:     at serveStatic (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74:11)
+2025-10-21 12:52:53:     at <anonymous> (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\index.ts:57:5)
+2025-10-21 12:52:53: 
+2025-10-21 12:52:53: Node.js v22.14.0
+2025-10-21 12:52:56: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74
+2025-10-21 12:52:56:     throw new Error(
+2025-10-21 12:52:56:           ^
+2025-10-21 12:52:56: 
+2025-10-21 12:52:56: 
+2025-10-21 12:52:56: Error: Could not find the build directory: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\public, make sure to build the client first
+2025-10-21 12:52:56:     at serveStatic (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74:11)
+2025-10-21 12:52:56:     at <anonymous> (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\index.ts:57:5)
+2025-10-21 12:52:56: 
+2025-10-21 12:52:56: Node.js v22.14.0
+2025-10-21 12:52:58: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74
+2025-10-21 12:52:58:     throw new Error(
+2025-10-21 12:52:58:           ^
+2025-10-21 12:52:58: 
+2025-10-21 12:52:58: 
+2025-10-21 12:52:58: Error: Could not find the build directory: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\public, make sure to build the client first
+2025-10-21 12:52:58:     at serveStatic (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74:11)
+2025-10-21 12:52:58:     at <anonymous> (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\index.ts:57:5)
+2025-10-21 12:52:58: 
+2025-10-21 12:52:58: Node.js v22.14.0
+2025-10-21 12:53:01: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74
+2025-10-21 12:53:01:     throw new Error(
+2025-10-21 12:53:01:           ^
+2025-10-21 12:53:01: 
+2025-10-21 12:53:01: 
+2025-10-21 12:53:01: Error: Could not find the build directory: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\public, make sure to build the client first
+2025-10-21 12:53:01:     at serveStatic (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74:11)
+2025-10-21 12:53:01:     at <anonymous> (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\index.ts:57:5)
+2025-10-21 12:53:01: 
+2025-10-21 12:53:01: Node.js v22.14.0
+2025-10-21 12:53:04: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74
+2025-10-21 12:53:04:     throw new Error(
+2025-10-21 12:53:04:           ^
+2025-10-21 12:53:04: 
+2025-10-21 12:53:04: 
+2025-10-21 12:53:04: Error: Could not find the build directory: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\public, make sure to build the client first
+2025-10-21 12:53:04:     at serveStatic (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74:11)
+2025-10-21 12:53:04:     at <anonymous> (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\index.ts:57:5)
+2025-10-21 12:53:04: 
+2025-10-21 12:53:04: Node.js v22.14.0
+2025-10-21 12:53:07: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74
+2025-10-21 12:53:07:     throw new Error(
+2025-10-21 12:53:07:           ^
+2025-10-21 12:53:07: 
+2025-10-21 12:53:07: 
+2025-10-21 12:53:07: Error: Could not find the build directory: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\public, make sure to build the client first
+2025-10-21 12:53:07:     at serveStatic (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74:11)
+2025-10-21 12:53:07:     at <anonymous> (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\index.ts:57:5)
+2025-10-21 12:53:07: 
+2025-10-21 12:53:07: Node.js v22.14.0
+2025-10-21 12:53:10: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74
+2025-10-21 12:53:10:     throw new Error(
+2025-10-21 12:53:10:           ^
+2025-10-21 12:53:10: 
+2025-10-21 12:53:10: 
+2025-10-21 12:53:10: Error: Could not find the build directory: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\public, make sure to build the client first
+2025-10-21 12:53:10:     at serveStatic (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74:11)
+2025-10-21 12:53:10:     at <anonymous> (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\index.ts:57:5)
+2025-10-21 12:53:10: 
+2025-10-21 12:53:10: Node.js v22.14.0
+2025-10-21 12:53:12: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74
+2025-10-21 12:53:12:     throw new Error(
+2025-10-21 12:53:12:           ^
+2025-10-21 12:53:12: 
+2025-10-21 12:53:12: 
+2025-10-21 12:53:12: Error: Could not find the build directory: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\public, make sure to build the client first
+2025-10-21 12:53:12:     at serveStatic (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74:11)
+2025-10-21 12:53:12:     at <anonymous> (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\index.ts:57:5)
+2025-10-21 12:53:12: 
+2025-10-21 12:53:12: Node.js v22.14.0
+2025-10-21 12:53:14: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74
+2025-10-21 12:53:14:     throw new Error(
+2025-10-21 12:53:14:           ^
+2025-10-21 12:53:14: 
+2025-10-21 12:53:14: 
+2025-10-21 12:53:14: Error: Could not find the build directory: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\public, make sure to build the client first
+2025-10-21 12:53:14:     at serveStatic (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74:11)
+2025-10-21 12:53:14:     at <anonymous> (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\index.ts:57:5)
+2025-10-21 12:53:14: 
+2025-10-21 12:53:14: Node.js v22.14.0
+2025-10-21 12:53:16: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74
+2025-10-21 12:53:16:     throw new Error(
+2025-10-21 12:53:16:           ^
+2025-10-21 12:53:16: 
+2025-10-21 12:53:16: 
+2025-10-21 12:53:16: Error: Could not find the build directory: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\public, make sure to build the client first
+2025-10-21 12:53:16:     at serveStatic (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74:11)
+2025-10-21 12:53:16:     at <anonymous> (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\index.ts:57:5)
+2025-10-21 12:53:16: 
+2025-10-21 12:53:16: Node.js v22.14.0
+2025-10-21 12:53:19: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74
+2025-10-21 12:53:19:     throw new Error(
+2025-10-21 12:53:19:           ^
+2025-10-21 12:53:19: 
+2025-10-21 12:53:19: 
+2025-10-21 12:53:19: Error: Could not find the build directory: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\public, make sure to build the client first
+2025-10-21 12:53:19:     at serveStatic (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74:11)
+2025-10-21 12:53:19:     at <anonymous> (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\index.ts:57:5)
+2025-10-21 12:53:19: 
+2025-10-21 12:53:19: Node.js v22.14.0
+2025-10-21 12:53:22: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74
+2025-10-21 12:53:22:     throw new Error(
+2025-10-21 12:53:22:           ^
+2025-10-21 12:53:22: 
+2025-10-21 12:53:22: 
+2025-10-21 12:53:22: Error: Could not find the build directory: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\public, make sure to build the client first
+2025-10-21 12:53:22:     at serveStatic (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74:11)
+2025-10-21 12:53:22:     at <anonymous> (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\index.ts:57:5)
+2025-10-21 12:53:22: 
+2025-10-21 12:53:22: Node.js v22.14.0
+2025-10-21 12:53:25: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74
+2025-10-21 12:53:25:     throw new Error(
+2025-10-21 12:53:25:           ^
+2025-10-21 12:53:25: 
+2025-10-21 12:53:25: 
+2025-10-21 12:53:25: Error: Could not find the build directory: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\public, make sure to build the client first
+2025-10-21 12:53:25:     at serveStatic (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74:11)
+2025-10-21 12:53:25:     at <anonymous> (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\index.ts:57:5)
+2025-10-21 12:53:25: 
+2025-10-21 12:53:25: Node.js v22.14.0
+2025-10-21 12:53:28: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74
+2025-10-21 12:53:28:     throw new Error(
+2025-10-21 12:53:28:           ^
+2025-10-21 12:53:28: 
+2025-10-21 12:53:28: 
+2025-10-21 12:53:28: Error: Could not find the build directory: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\public, make sure to build the client first
+2025-10-21 12:53:28:     at serveStatic (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74:11)
+2025-10-21 12:53:28:     at <anonymous> (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\index.ts:57:5)
+2025-10-21 12:53:28: 
+2025-10-21 12:53:28: Node.js v22.14.0
+2025-10-21 12:53:30: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74
+2025-10-21 12:53:30:     throw new Error(
+2025-10-21 12:53:30:           ^
+2025-10-21 12:53:30: 
+2025-10-21 12:53:30: 
+2025-10-21 12:53:30: Error: Could not find the build directory: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\public, make sure to build the client first
+2025-10-21 12:53:30:     at serveStatic (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74:11)
+2025-10-21 12:53:30:     at <anonymous> (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\index.ts:57:5)
+2025-10-21 12:53:30: 
+2025-10-21 12:53:30: Node.js v22.14.0
+2025-10-21 12:53:33: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74
+2025-10-21 12:53:33:     throw new Error(
+2025-10-21 12:53:33:           ^
+2025-10-21 12:53:33: 
+2025-10-21 12:53:33: 
+2025-10-21 12:53:33: Error: Could not find the build directory: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\public, make sure to build the client first
+2025-10-21 12:53:33:     at serveStatic (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74:11)
+2025-10-21 12:53:33:     at <anonymous> (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\index.ts:57:5)
+2025-10-21 12:53:33: 
+2025-10-21 12:53:33: Node.js v22.14.0
+2025-10-21 12:53:35: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74
+2025-10-21 12:53:35:     throw new Error(
+2025-10-21 12:53:35:           ^
+2025-10-21 12:53:35: 
+2025-10-21 12:53:35: 
+2025-10-21 12:53:35: Error: Could not find the build directory: c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\public, make sure to build the client first
+2025-10-21 12:53:35:     at serveStatic (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\vite.ts:74:11)
+2025-10-21 12:53:35:     at <anonymous> (c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\index.ts:57:5)
+2025-10-21 12:53:35: 
+2025-10-21 12:53:35: Node.js v22.14.0
+2025-10-21 12:54:59: Error: ENOENT: no such file or directory, stat 'c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\public\index.html'
+2025-10-21 12:55:03: Error: ENOENT: no such file or directory, stat 'c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\public\index.html'
+2025-10-21 12:56:29: Error: ENOENT: no such file or directory, stat 'c:\Users\shash\Downloads\MY\portfolio_2\CloudArchitectfolio\server\public\index.html'
