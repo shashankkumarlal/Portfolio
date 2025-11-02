@@ -6,9 +6,9 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development tsx server/index.ts",
     "build": "npm run clean && npm run build:server && npm run build:client",
-    "build:server": "tsc && npx shx mkdir -p api && npx shx cp -r server/* api/ && npx shx cp -r shared/* api/",
+    "build:server": "node scripts/build-server.js",
     "build:client": "cd client && vite build",
-    "clean": "npx shx rm -rf api dist client/dist client/node_modules/.vite",
+    "clean": "node scripts/clean.js",
     "vercel-build": "npm run build",
     "start": "cross-env NODE_ENV=production node api/index.js",
     "check": "tsc",
