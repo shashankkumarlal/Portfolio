@@ -1,6 +1,13 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import './LogoLoop.css';
 
+// Add global type declarations
+declare global {
+  interface Window {
+    ResizeObserver: typeof ResizeObserver;
+  }
+}
+
 export type LogoItem =
   | {
       node: React.ReactNode;
@@ -46,28 +53,53 @@ const ANIMATION_CONFIG = {
 const toCssLength = (value?: number | string): string | undefined =>
   typeof value === 'number' ? `${value}px` : value ?? undefined;
 
+// Add type declaration for window to fix TypeScript errors
+declare global {
+  interface Window {
+    ResizeObserver: typeof ResizeObserver;
+  }
+}
+
 const useResizeObserver = (
   callback: () => void,
   elements: Array<React.RefObject<Element | null>>,
   dependencies: React.DependencyList
 ) => {
   useEffect(() => {
+    // Skip during SSR
+    if (typeof window === 'undefined') return;
+    
+    const handleResize = () => callback();
+    let resizeObserver: ResizeObserver | null = null;
+    const observers: ResizeObserver[] = [];
+    
+    // Fallback for browsers without ResizeObserver
     if (!('ResizeObserver' in window)) {
-      const handleResize = () => callback();
-      window.addEventListener('resize', handleResize);
-      callback();
-      return () => window.removeEventListener('resize', handleResize);
+      (window as Window).addEventListener('resize', handleResize);
+      // Initial callback
+      const timer = setTimeout(callback, 0);
+      return () => {
+        (window as Window).removeEventListener('resize', handleResize);
+        clearTimeout(timer);
+      };
     }
 
-    const observers = elements.map((ref) => {
-      if (!ref.current) return null;
-      const observer = new ResizeObserver(callback);
+    // Create ResizeObservers for each element
+    elements.forEach((ref) => {
+      if (!ref.current) return;
+      const observer = new ResizeObserver(handleResize);
       observer.observe(ref.current);
-      return observer;
+      observers.push(observer);
     });
 
-    callback();
-    return () => observers.forEach((o) => o?.disconnect());
+    // Initial callback after observers are set up
+    const timer = setTimeout(callback, 0);
+
+    // Cleanup function
+    return () => {
+      clearTimeout(timer);
+      observers.forEach(observer => observer.disconnect());
+    };
   }, dependencies);
 };
 
@@ -194,7 +226,7 @@ export const LogoLoop = React.memo<LogoLoopProps>(
       if (sequenceWidth > 0) {
         setSeqWidth(Math.ceil(sequenceWidth));
         const copiesNeeded = Math.ceil(containerWidth / sequenceWidth) + ANIMATION_CONFIG.COPY_HEADROOM;
-        setCopyCount(Math.max(ANIMATION_CONFIG.MIN_COPIES, copiesNeeded));
+        setCopyCount(prev => Math.max(ANIMATION_CONFIG.MIN_COPIES, copiesNeeded) as 2);
       }
     }, []);
 

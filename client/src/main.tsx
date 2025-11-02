@@ -15,9 +15,11 @@ try {
     const lenis = new Lenis({
       duration: 1.1,
       smoothWheel: true,
-      smoothTouch: false,
+      touchMultiplier: 1.5,
       syncTouch: true,
-      gestureOrientation: "vertical",
+      gestureOrientation: "vertical" as const,
+      // @ts-ignore - smoothTouch is not in the type definitions but is a valid option
+      smoothTouch: true,
     });
     const raf = (time: number) => {
       lenis.raf(time);
