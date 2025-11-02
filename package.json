@@ -87,7 +87,14 @@
     "ws": "^8.18.0",
     "zod": "^3.24.2",
     "zod-validation-error": "^3.4.0",
-    "shx": "^0.3.4"
+    "shx": "^0.3.4",
+    "typescript": "5.6.3",
+    "tsx": "^4.20.6",
+    "vite": "^7.1.12",
+    "@vitejs/plugin-react": "^5.1.0",
+    "tailwindcss": "^3.4.17",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47"
   },
   "devDependencies": {
     "@replit/vite-plugin-cartographer": "^0.3.1",
@@ -105,16 +112,9 @@
     "@types/react": "^18.3.11",
     "@types/react-dom": "^18.3.1",
     "@types/ws": "^8.5.13",
-    "@vitejs/plugin-react": "^5.1.0",
-    "autoprefixer": "^10.4.20",
     "cross-env": "^7.0.3",
     "drizzle-kit": "^0.31.4",
-    "esbuild": "^0.25.11",
-    "postcss": "^8.4.47",
-    "tailwindcss": "^3.4.17",
-    "tsx": "^4.20.6",
-    "typescript": "5.6.3",
-    "vite": "^7.1.12"
+    "esbuild": "^0.25.11"
   },
   "optionalDependencies": {
     "bufferutil": "^4.0.8"
