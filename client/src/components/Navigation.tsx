@@ -80,8 +80,8 @@ export function Navigation() {
               className="flex items-center gap-2"
             >
               <span
-                className="tracking-tight text-[2rem] md:text-[2.5rem] leading-none"
-                style={{ fontFamily: "'Orbitron', var(--font-sans)" }}
+                className="tracking-tight text-[2rem] md:text-[2.5rem] leading-none font-black"
+                style={{ fontFamily: "'Orbitron', sans-serif" }}
               >
                 {">_ Shashank"}
               </span>

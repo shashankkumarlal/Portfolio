@@ -19,6 +19,9 @@ import { TechLogosSection } from '@/components/TechLogosSection';
 export default function Home() {
   return (
     <div className="relative min-h-screen" id="home">
+      {/* Black overlay for better visibility */}
+      <div className="fixed inset-0 bg-black/40 pointer-events-none z-[1]" />
+      
       {PARALLAX_ENABLED && (
         <>
           <GridLayer />
@@ -28,7 +31,7 @@ export default function Home() {
       )}
       <ParticleBackground />
       <Navigation />
-      <main className="relative z-10">
+      <main className="relative z-20">
         <HeroSection />
         <AboutSection />
         <ProjectsSection />

@@ -4,6 +4,7 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
+  root: '.',
   base: '/',
   build: {
     outDir: 'dist',
@@ -16,6 +17,8 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
+      '@shared': path.resolve(__dirname, '../shared'),
+      '@assets': path.resolve(__dirname, './src/assets'),
     },
   },
 });

@@ -4,13 +4,12 @@
   "type": "module",
   "license": "MIT",
   "scripts": {
-    "postinstall": "npm install --no-save shx",
     "dev": "cross-env NODE_ENV=development tsx server/index.ts",
     "build": "npm run clean && npm run build:server && npm run build:client",
     "build:server": "tsc && npx shx mkdir -p api && npx shx cp -r server/* api/ && npx shx cp -r shared/* api/",
-    "build:client": "cd client && npm install && npm run build",
+    "build:client": "cd client && vite build",
     "clean": "npx shx rm -rf api dist client/dist client/node_modules/.vite",
-    "vercel-build": "npm install && npm run build",
+    "vercel-build": "npm run build",
     "start": "cross-env NODE_ENV=production node api/index.js",
     "check": "tsc",
     "db:push": "drizzle-kit push"
@@ -111,6 +110,7 @@
     "drizzle-kit": "^0.31.4",
     "esbuild": "^0.25.11",
     "postcss": "^8.4.47",
+    "shx": "^0.4.0",
     "tailwindcss": "^3.4.17",
     "tsx": "^4.20.6",
     "typescript": "5.6.3",

@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 
 export function Footer() {
   return (
-    <footer className="border-t border-border py-12 px-6">
+    <footer className="relative z-20 border-t border-border py-12 px-6">
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>

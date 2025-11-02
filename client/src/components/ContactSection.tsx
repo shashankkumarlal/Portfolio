@@ -210,7 +210,7 @@ export function ContactSection() {
                   <Button
                     type="submit"
                     size="lg"
-                    className="w-full group"
+                    className="w-full group bg-gradient-to-r from-blue-900 via-blue-800 to-indigo-900 hover:from-blue-800 hover:via-blue-700 hover:to-indigo-800 text-white border-0 shadow-[0_0_25px_rgba(30,58,138,0.5)] hover:shadow-[0_0_35px_rgba(30,58,138,0.7)] transition-all duration-300 hover:scale-[1.02] font-semibold"
                     disabled={contactMutation.isPending}
                     data-testid="button-submit-contact"
                   >

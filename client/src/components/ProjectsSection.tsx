@@ -114,7 +114,7 @@ export function ProjectsSection() {
                 <div className={`h-2 w-16 rounded-full bg-gradient-to-r ${project.gradient} mb-6 group-hover:w-full transition-all duration-500`} />
                 
                 <h3 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors">{project.title}</h3>
-                <p className="text-muted-foreground text-sm leading-relaxed mb-4">{project.description}</p>
+                <p className="text-muted-foreground text-sm leading-relaxed mb-4 text-justify">{project.description}</p>
                 
                 <div className="flex flex-wrap gap-2 mb-6">
                   {project.tags.map((tag) => (
@@ -128,15 +128,16 @@ export function ProjectsSection() {
                 </div>
 
                 <div className="flex mt-auto">
-                  <Button asChild size="sm" variant="outline" className="flex-1 hover-elevate" data-testid={`button-view-project-${index}`}>
+                  <Button asChild size="sm" className="group flex-1 bg-gradient-to-r from-cyan-500 via-blue-600 to-purple-600 hover:from-cyan-400 hover:via-blue-500 hover:to-purple-500 text-white border-0 shadow-[0_0_20px_rgba(6,182,212,0.4)] hover:shadow-[0_0_30px_rgba(6,182,212,0.6)] transition-all duration-300 hover:scale-105" data-testid={`button-view-project-${index}`}>
                     <a
                       href={project.url}
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label={`Open GitHub for ${project.title}`}
+                      className="flex items-center justify-center gap-2"
                     >
-                      <Github className="h-4 w-4 mr-2" />
-                      <ShinyText text="View" speed={3} />
+                      <Github className="h-4 w-4 group-hover:rotate-12 transition-transform duration-300" />
+                      <span className="font-semibold">View Project</span>
                     </a>
                   </Button>
                 </div>

@@ -1,17 +1,26 @@
 import React from 'react';
 import LogoLoop from '@/components/LogoLoop';
-import { SiJenkins, SiKubernetes, SiDocker, SiTerraform, SiPython, SiGnubash, SiCplusplus, SiC, SiGooglecloud } from 'react-icons/si';
+import { SiJenkins, SiKubernetes, SiDocker, SiTerraform, SiPython, SiGnubash, SiCplusplus, SiC, SiGooglecloud, SiLangchain } from 'react-icons/si';
 
 export const TechLogosSection: React.FC = () => {
+  // Custom SVG component for E2E Networks logo
+  const E2ENetworksLogo = () => (
+    <svg viewBox="0 0 200 50" className="w-full h-full">
+      <text x="10" y="35" fontSize="32" fontWeight="bold" fill="currentColor" fontFamily="Ubuntu, sans-serif">
+        E2E
+      </text>
+    </svg>
+  );
+
   // Prefer official image logos for brands without a good icon or for accuracy
   const imageLogos = [
     { src: 'https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg', alt: 'AWS', href: 'https://aws.amazon.com' },
     { src: 'https://upload.wikimedia.org/wikipedia/commons/5/51/Google_Cloud_logo.svg', alt: 'Google Cloud', href: 'https://cloud.google.com' },
-    { src: 'https://www.e2enetworks.com/hs-fs/hubfs/E2E%20Networks%20Logo.svg', alt: 'E2E Networks', href: 'https://www.e2enetworks.com' },
-    { src: 'https://raw.githubusercontent.com/langchain-ai/langchain/master/docs/static/img/langchain_logo.png', alt: 'LangChain', href: 'https://www.langchain.com' }
   ];
 
   const iconLogos = [
+    { node: <E2ENetworksLogo />, title: 'E2E Networks', href: 'https://www.e2enetworks.com' },
+    { node: <SiLangchain />, title: 'LangChain', href: 'https://www.langchain.com' },
     { node: <SiJenkins />, title: 'Jenkins', href: 'https://www.jenkins.io' },
     { node: <SiKubernetes />, title: 'Kubernetes', href: 'https://kubernetes.io' },
     { node: <SiDocker />, title: 'Docker', href: 'https://www.docker.com' },

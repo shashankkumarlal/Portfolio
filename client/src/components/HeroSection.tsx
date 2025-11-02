@@ -1,7 +1,7 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
-import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react';
+import { ArrowDown, Github, Linkedin, Mail, Briefcase, Cloud, Globe, Bot, Code, Terminal } from 'lucide-react';
 import profileImage from '@assets/WhatsApp_Image_2025-10-19_at_23.14.32_7aa574f1-removebg-preview.png';
 import { useState, lazy, Suspense, useMemo } from 'react';
 import { TypewriterText } from '@/components/TypewriterText';
@@ -12,7 +12,7 @@ import Magnet from '@/components/Magnet';
 
 interface TechItem {
   name: string;
-  icon: string;
+  icon: React.ReactNode;
   color: string;
   items: string[];
 }
@@ -151,32 +151,32 @@ export const HeroSection: React.FC = () => {
   const technologies: TechItem[] = [
     {
       name: 'AWS',
-      icon: '☁️',
+      icon: <Cloud className="w-5 h-5" />,
       color: 'from-orange-500 to-yellow-500',
       items: ['S3', 'EC2', 'Lambda', 'CloudWatch', 'RDS', 'DynamoDB', 'API Gateway', 'CloudFront']
     },
     {
       name: 'Google Cloud',
-      icon: '🌐',
+      icon: <Globe className="w-5 h-5" />,
       color: 'from-blue-500 to-cyan-400',
       items: ['Compute Engine', 'Cloud Run', 'Cloud Functions', 'Cloud Storage', 'BigQuery', 'Pub/Sub']
     },
     {
       name: 'Agentic AI',
-      icon: '🤖',
-      color: 'from-orange-400 to-red-500',
+      icon: <Bot className="w-5 h-5" />,
+      color: 'from-purple-500 to-pink-500',
       items: ['LangChain', 'CrewAI', 'Agents', 'Tools', 'RAG Pipelines', 'Workflows']
     },
     {
       name: 'Python',
-      icon: '🐍',
-      color: 'from-red-500 to-orange-500',
+      icon: <Code className="w-5 h-5" />,
+      color: 'from-blue-600 to-yellow-500',
       items: ['FastAPI', 'NumPy', 'Pandas', 'AsyncIO', 'OOP', 'Typing']
     },
     {
       name: 'Shell Scripting',
-      icon: '🐚',
-      color: 'from-blue-400 to-indigo-600',
+      icon: <Terminal className="w-5 h-5" />,
+      color: 'from-green-400 to-emerald-600',
       items: ['Bash', 'Zsh', 'Cron', 'grep/sed/awk', 'tmux', 'ssh']
     }
   ];
@@ -316,12 +316,25 @@ export const HeroSection: React.FC = () => {
             >
               <Magnet padding={360} magnetStrength={4}>
                 <Button
-                  size="sm"
+                  size="lg"
                   onClick={scrollToContact}
                   aria-label="Hire Me"
-                  className="rounded-xl px-6 py-6 bg-gradient-to-br from-primary/90 to-secondary/90 text-white border border-white/10 shadow-[0_8px_24px_rgba(0,0,0,0.25)] hover:shadow-[0_10px_30px_rgba(0,0,0,0.35)] hover:-translate-y-0.5 transition-all text-2xl"
+                  className="group relative px-10 py-7 bg-gradient-to-r from-violet-600 via-purple-600 to-fuchsia-600 text-white font-bold text-xl rounded-2xl overflow-hidden border-2 border-white/30 shadow-[0_0_40px_rgba(168,85,247,0.6),0_0_80px_rgba(139,92,246,0.4)] hover:shadow-[0_0_60px_rgba(168,85,247,0.8),0_0_100px_rgba(139,92,246,0.6)] hover:scale-105 hover:border-white/50 transition-all duration-500"
                 >
-                  Hire Me
+                  {/* Animated background gradient */}
+                  <span className="absolute inset-0 bg-gradient-to-r from-fuchsia-600 via-purple-600 to-violet-600 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                  
+                  {/* Shine effect */}
+                  <span className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700">
+                    <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000" />
+                  </span>
+                  
+                  {/* Content */}
+                  <span className="relative z-10 flex items-center gap-3">
+                    <Briefcase className="w-6 h-6 group-hover:rotate-12 transition-transform duration-300" />
+                    <span className="tracking-wide">Hire Me</span>
+                    <ArrowDown className="w-5 h-5 group-hover:translate-y-1 transition-transform duration-300" />
+                  </span>
                 </Button>
               </Magnet>
             </motion.div>
