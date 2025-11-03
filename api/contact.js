@@ -1,5 +1,3 @@
-import nodemailer from "nodemailer";
-
 export default async function handler(req, res) {
   if (req.method !== "POST") {
     return res.status(405).json({ message: "Method not allowed" });
@@ -8,34 +6,37 @@ export default async function handler(req, res) {
   try {
     const { name, email, subject, message } = req.body;
 
-    // ✅ Validate
     if (!name || !email || !subject || !message) {
       return res.status(400).json({ message: "All fields are required" });
     }
 
-    // ✅ Configure transporter (use your email + app password)
-    const transporter = nodemailer.createTransport({
-      service: "gmail",
-      auth: {
-        user: process.env.GMAIL_USER,
-        pass: process.env.GMAIL_PASS,
-      },
+    const response = await fetch(process.env.GSHEET_WEBAPP_URL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        token: process.env.SHEETS_TOKEN,
+        name,
+        email,
+        subject,
+        message,
+      }),
     });
 
-    // ✅ Email content
-    const mailOptions = {
-      from: email,
-      to: process.env.GMAIL_USER,
-      subject: `New Contact Message: ${subject}`,
-      text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
-    };
+    const data = await response.json();
 
-    // ✅ Send email
-    await transporter.sendMail(mailOptions);
-
-    return res.status(200).json({ success: true, message: "Message sent successfully!" });
+    if (data?.result === "success") {
+      return res
+        .status(200)
+        .json({ success: true, message: "Message saved to Google Sheet!" });
+    } else {
+      return res
+        .status(500)
+        .json({ success: false, message: "Failed to send message to Sheet." });
+    }
   } catch (error) {
-    console.error("Error sending contact email:", error);
-    return res.status(500).json({ success: false, message: "Failed to send message." });
+    console.error("Contact form error:", error);
+    return res
+      .status(500)
+      .json({ success: false, message: "Server error sending message." });
   }
 }
