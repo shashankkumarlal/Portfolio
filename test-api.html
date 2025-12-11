@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>API Test</title>
+</head>
+<body>
+    <h1>API Test Page</h1>
+    
+    <h2>Test Chat API</h2>
+    <button onclick="testChat()">Test Chat</button>
+    <div id="chatResult"></div>
+    
+    <h2>Test Contact API</h2>
+    <button onclick="testContact()">Test Contact</button>
+    <div id="contactResult"></div>
+
+    <script>
+        async function testChat() {
+            try {
+                const response = await fetch('/api/chat', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        message: 'Hello, this is a test message'
+                    })
+                });
+                
+                const data = await response.json();
+                document.getElementById('chatResult').innerHTML = 
+                    `<p>Status: ${response.status}</p><p>Response: ${JSON.stringify(data, null, 2)}</p>`;
+            } catch (error) {
+                document.getElementById('chatResult').innerHTML = 
+                    `<p>Error: ${error.message}</p>`;
+            }
+        }
+
+        async function testContact() {
+            try {
+                const response = await fetch('/api/contact', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        name: 'Test User',
+                        email: 'test@example.com',
+                        subject: 'Test Subject',
+                        message: 'This is a test message'
+                    })
+                });
+                
+                const data = await response.json();
+                document.getElementById('contactResult').innerHTML = 
+                    `<p>Status: ${response.status}</p><p>Response: ${JSON.stringify(data, null, 2)}</p>`;
+            } catch (error) {
+                document.getElementById('contactResult').innerHTML = 
+                    `<p>Error: ${error.message}</p>`;
+            }
+        }
+    </script>
+</body>
+</html>
